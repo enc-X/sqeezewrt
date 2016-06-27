@@ -9,7 +9,8 @@ PKG_MAINTAINER:= Andrew Kazakov <squeezewrt.ak@gmail.com>
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_URL:=https://github.com/enc-X/sqeezelite
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
-PKG_SOURCE_VERSION:=8b8dfe6918ebe45ade5f3d9b68d453d7b8128d99
+
+PKG_SOURCE_VERSION:=b233b1e1baee2b6897d5dc0474ff4acb181a1d66
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION)-$(PKG_SOURCE_VERSION).tar.gz
 PKG_BUILD_DEPENDS:=alsa-lib libflac libmad libvorbis libfaad2
 
