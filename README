@@ -3,6 +3,10 @@ squeezewrt
 
 OpenWRT feed to port Adrian Smith't squeezelite to OpenWRT based devices
 
+Updated to local copy of squeezelite (google code is not available), based on: 
+-   https://github.com/squeezewrt/squeezewrt
+-   https://github.com/ralph-irving/squeezelite
+
 To compile it you need: 
 -   Install OpenWRT Buildroot as described in 
         http://wiki.openwrt.org/doc/howto/buildroot.exigence
@@ -11,7 +15,7 @@ To compile it you need:
     named
         ./build-directory/feeds.conf
     Еdit feeds.conf and add 
-        src-git squeezewrt https://github.com/squeezewrt/squeezewrt.git
+        src-git squeezewrt https://github.com/enc-X/squeezewrt
     at the end
 -   Execute again
         ./scripts/feeds update -a
