@@ -7,7 +7,7 @@ PKG_LICENSE:=GPL-2.0+
 PKG_MAINTAINER:= Andrew Kazakov <squeezewrt.ak@gmail.com>
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_URL:=https://github.com/enc-X/sqeezelite
+PKG_SOURCE_URL:=https://github.com/piotrC4/sqeezelite
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
 
 PKG_SOURCE_VERSION:=c7a59a21a4e696378a382a6269ec5df1cf84c730
