@@ -15,7 +15,7 @@ To compile it you need:
     named
         ./build-directory/feeds.conf
     Еdit feeds.conf and add 
-        src-git squeezewrt https://github.com/enc-X/squeezewrt
+        src-git squeezewrt https://github.com/piotrC4/squeezewrt
     at the end
 -   Execute again
         ./scripts/feeds update -a
